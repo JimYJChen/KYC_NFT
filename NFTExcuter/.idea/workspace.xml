@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d128f56-b3ca-4f84-945f-bda15854d5b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../NFTChainCode/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NFTChainCode/lib/Constant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NFTChainCode/lib/NFTContract" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assetTransfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testHelloWorld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fabcar/javascript/enrollAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../fabcar/javascript/enrollAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fabcar/javascript/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../fabcar/javascript/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fabcar/javascript/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../fabcar/javascript/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/basic.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/channel-artifacts/mychannel.block" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/channel-artifacts/mychannel.block" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/ca-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/ca-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/fabric-ca-server.db" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/fabric-ca-server.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/msp/keystore/21d5e08afd814c67820847987e8f0852f03f7b3373f322fa249dceb6fe0a543b_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/msp/keystore/IssuerRevocationPrivateKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/msp/keystore/IssuerRevocationPrivateKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/msp/keystore/IssuerSecretKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/msp/keystore/IssuerSecretKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/msp/keystore/f607b4adc8ada2355bcabd4ff47142badb6c8853d43186182633f1fb798e7ed3_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/tls-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/ordererOrg/tls-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/ca-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/ca-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/fabric-ca-server.db" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/fabric-ca-server.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/msp/keystore/308b8e9f3aa682023f49117793b51ef17d0c6f533f308c03f5def1a149682a7a_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/msp/keystore/9d648e896c0c3e5b57a83eff16ac7f1c3c718e26a4ead3ec4a2349fb3da67497_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/msp/keystore/IssuerRevocationPrivateKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/msp/keystore/IssuerRevocationPrivateKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/msp/keystore/IssuerSecretKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/msp/keystore/IssuerSecretKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/tls-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org1/tls-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/ca-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/ca-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/fabric-ca-server.db" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/fabric-ca-server.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/msp/keystore/5a133093c8267932d06b15b193244e3e14df7f115e1b076cf61e6935d72e3a4b_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/msp/keystore/6659c74b57d44c609dbddd86fe674d7af5f7561e0aa7db62b75cf300c36f978b_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/msp/keystore/IssuerRevocationPrivateKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/msp/keystore/IssuerRevocationPrivateKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/msp/keystore/IssuerSecretKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/msp/keystore/IssuerSecretKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/tls-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/fabric-ca/org2/tls-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/fabric-ca-client-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/fabric-ca-client-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/msp/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/msp/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/msp/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/msp/cacerts/localhost-9054-ca-orderer.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/msp/cacerts/localhost-9054-ca-orderer.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/msp/keystore/ce5f1ffe229f28df1bb7e6908d362804fde0aeb3de84bad2fdb3a43d95701b12_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/msp/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/msp/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/msp/tlscacerts/tlsca.example.com-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/msp/tlscacerts/tlsca.example.com-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/cacerts/localhost-9054-ca-orderer.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/cacerts/localhost-9054-ca-orderer.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/keystore/d0122b2831fbc00aa5e2ffb236c995a2afb0aae7fdcacfa999ece9c61211e4d5_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/ca.crt" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/ca.crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/keystore/f732df7937fe7bb98380f94a49323410514480cc650d1190e42961ca3ecfefca_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/server.crt" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/server.crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/server.key" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/server.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/tlscacerts/tls-localhost-9054-ca-orderer.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/tls/tlscacerts/tls-localhost-9054-ca-orderer.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/users/Admin@example.com/msp/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/users/Admin@example.com/msp/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/users/Admin@example.com/msp/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/users/Admin@example.com/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/users/Admin@example.com/msp/cacerts/localhost-9054-ca-orderer.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/users/Admin@example.com/msp/cacerts/localhost-9054-ca-orderer.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/users/Admin@example.com/msp/keystore/5282539bd50397cfc9ea59b988cc0143bde9f5b33318d3f63cf855120a07d220_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/users/Admin@example.com/msp/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/ordererOrganizations/example.com/users/Admin@example.com/msp/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/ca/ca.org1.example.com-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/ca/ca.org1.example.com-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/connection-org1.json" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/connection-org1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/connection-org1.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/connection-org1.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/fabric-ca-client-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/fabric-ca-client-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/msp/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/msp/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/msp/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/msp/cacerts/localhost-7054-ca-org1.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/msp/cacerts/localhost-7054-ca-org1.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/msp/keystore/c493af0059401e7f011ceefb9e7dbf46feae8321f054ad333001ca445e20d5b7_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/msp/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/msp/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/msp/tlscacerts/ca.crt" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/msp/tlscacerts/ca.crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/cacerts/localhost-7054-ca-org1.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/cacerts/localhost-7054-ca-org1.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/keystore/da3cd1af82d803e752661f8975bcbd1d1fc71dc0553b6721d03dc14fb5a9b25f_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/keystore/0d8c2733dd99c32c5d47d65cafebf8d7a4ef6aad90db533c41551e1264d301dd_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/tlscacerts/tls-localhost-7054-ca-org1.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/tlscacerts/tls-localhost-7054-ca-org1.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/cacerts/localhost-7054-ca-org1.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/cacerts/localhost-7054-ca-org1.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/51e6e142a8c1d6e71ad725e2123b69fa9023e451ebb872bf8f1635876a58d309_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/cacerts/localhost-7054-ca-org1.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/cacerts/localhost-7054-ca-org1.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/keystore/4ddcf66e60e7e23669872892504670ba756ba80132d0a4daa9a31147cee7c2dd_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/ca/ca.org2.example.com-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/ca/ca.org2.example.com-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/connection-org2.json" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/connection-org2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/connection-org2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/connection-org2.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/fabric-ca-client-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/fabric-ca-client-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/msp/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/msp/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/msp/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/msp/cacerts/localhost-8054-ca-org2.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/msp/cacerts/localhost-8054-ca-org2.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/msp/keystore/49ced9f9773fe9e0c2205ea8b230524f289227c2eac34961a12d2c7fab1251a6_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/msp/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/msp/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/msp/tlscacerts/ca.crt" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/msp/tlscacerts/ca.crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/msp/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/msp/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/msp/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/msp/cacerts/localhost-8054-ca-org2.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/msp/cacerts/localhost-8054-ca-org2.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/msp/keystore/928cd67d95eb583757d10a7aeecb1fe84c8f1b9012a81bdb78e3d611fe33d02c_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/msp/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/msp/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/keystore/a73fd2078ca201b23c2bbd5ab9eda69335b5f1c89acde77cfc19fd244dee65ae_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/server.crt" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/server.crt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/server.key" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/server.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/tlscacerts/tls-localhost-8054-ca-org2.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/tlscacerts/tls-localhost-8054-ca-org2.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/tlsca/tlsca.org2.example.com-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/tlsca/tlsca.org2.example.com-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/cacerts/localhost-8054-ca-org2.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/cacerts/localhost-8054-ca-org2.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/keystore/6c58c1abc10441fb088fdc5925d13774514cb9d74cbbc0eabc88efcc2728bd4c_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/User1@org2.example.com/msp/IssuerPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/User1@org2.example.com/msp/IssuerPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/User1@org2.example.com/msp/IssuerRevocationPublicKey" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/User1@org2.example.com/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/User1@org2.example.com/msp/cacerts/localhost-8054-ca-org2.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/User1@org2.example.com/msp/cacerts/localhost-8054-ca-org2.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/User1@org2.example.com/msp/keystore/2a2c017e15c68a24b8219408545ca8206be912923bbcd6ce8b4e03264fad4f03_sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/User1@org2.example.com/msp/signcerts/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../test-network/organizations/peerOrganizations/org2.example.com/users/User1@org2.example.com/msp/signcerts/cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../token-erc-20/chaincode-javascript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../token-erc-20/chaincode-javascript/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../token-erc-20/chaincode-javascript/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../token-erc-20/chaincode-javascript/package-lock.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="775236214">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="id" value="2" />
+          <entry key="js" value="1" />
+          <entry key="json" value="1" />
+          <entry key="testHelloWorld" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="14" />
+          <entry key="json" value="3" />
+          <entry key="testHelloWorld" value="94" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="108" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testHelloWorld">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assetTransfer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="152" column="14" lean-forward="true" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>buildWallet</find>
+      <find>chaincode</find>
+      <find>identity</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/testHelloWorld" />
+        <option value="$PROJECT_DIR$/assetTransfer.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="53" />
+    <option name="y" value="25" />
+    <option name="width" value="1387" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NFTExcuter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NFTExcuter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NFTExcuter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NFTExcuter" type="462c0819:PsiDirectoryNode" />
+              <item name="wallet" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="testHelloWorld" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="testHelloWorld" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.testHelloWorld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d128f56-b3ca-4f84-945f-bda15854d5b8" name="Default Changelist" comment="" />
+      <created>1654677442218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654677442218</updated>
+      <workItem from="1654677443505" duration="10404000" />
+      <workItem from="1656641965192" duration="1236000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11640000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="53" y="25" width="1387" height="875" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891247" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wallet/admin.id">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wallet/appUser.id">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testHelloWorld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assetTransfer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="152" column="14" lean-forward="true" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

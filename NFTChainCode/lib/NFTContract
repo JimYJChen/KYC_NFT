@@ -1,0 +1,122 @@
+// NFTContract.js
+'use strict';
+
+// SDK Library to asset with writing the logic
+const { Contract } = require('fabric-contract-api');
+const { KYCRecognizedSteps } = require('./Constant');
+/**
+ * Support the Updating of values within the SmartContract
+ */
+class NFTContract extends Contract{
+
+    constructor(){
+        super('NFTContract');
+    }
+    init(){
+        console.log('Hello world')
+    }
+    // CreateAsset - create a new asset, store into chaincode state
+    async CreateAsset(ctx, inputValues) {
+        const {assetID, ownerID} = inputValues;
+        const exists = await this.AssetExists(ctx, assetID);
+        if (exists) {
+            throw new Error(`The asset ${assetID} already exists`);
+        }
+
+        // ==== Create asset object and marshal to JSON ====
+        let asset = {
+            assetID: assetID,
+            ownerID: ownerID,
+            currentStatus: 0,
+            issuedRegions:[],
+        };
+
+
+        // === Save asset to state ===
+        await ctx.stub.putState(assetID, Buffer.from(JSON.stringify(asset)));
+        // let indexName = 'color~name';
+        // let colorNameIndexKey = await ctx.stub.createCompositeKey(indexName, [asset.color, asset.assetID]);
+        //
+        // //  Save index entry to state. Only the key name is needed, no need to store a duplicate copy of the marble.
+        // //  Note - passing a 'nil' value will effectively delete the key from state, therefore we pass null character as value
+        // await ctx.stub.putState(colorNameIndexKey, Buffer.from('\u0000'));
+    }
+    // ReadAsset returns the asset stored in the world state with given id.
+    async ReadAsset(ctx, id) {
+        const assetJSON = await ctx.stub.getState(id); // get the asset from chaincode state
+        if (!assetJSON || assetJSON.length === 0) {
+            throw new Error(`Asset ${id} does not exist`);
+        }
+
+        return assetJSON.toString();
+    }
+    async QueryAssetsByOwnerID(ctx, ownerID) {
+        let queryString = {};
+        queryString.selector = {};
+        queryString.selector.docType = 'asset';
+        queryString.selector.owner = ownerID;
+        return await this.GetQueryResultForQueryString(ctx, JSON.stringify(queryString)); //shim.success(queryResults);
+    }
+    // GetQueryResultForQueryString executes the passed in query string.
+    // Result set is built and returned as a byte array containing the JSON results.
+    async GetQueryResultForQueryString(ctx, queryString) {
+
+        let resultsIterator = await ctx.stub.getQueryResult(queryString);
+        let results = await this._GetAllResults(resultsIterator, false);
+
+        return JSON.stringify(results);
+    }
+    // GetAssetHistory returns the chain of custody for an asset since issuance.
+    async GetAssetHistory(ctx, assetName) {
+
+        let resultsIterator = await ctx.stub.getHistoryForKey(assetName);
+        let results = await this._GetAllResults(resultsIterator, true);
+
+        return JSON.stringify(results);
+    }
+    // AssetExists returns true when asset with given ID exists in world state
+    async AssetExists(ctx, assetName) {
+        // ==== Check if asset already exists ====
+        let assetState = await ctx.stub.getState(assetName);
+        return assetState && assetState.length > 0;
+    }
+
+    // This is JavaScript so without function    Decorators, all functions are assumed
+    // to be transaction functions
+    //
+    // For internal functions... prefix them with _
+    async _GetAllResults(iterator, isHistory) {
+        let allResults = [];
+        let res = await iterator.next();
+        while (!res.done) {
+            if (res.value && res.value.value.toString()) {
+                let jsonRes = {};
+                console.log(res.value.value.toString('utf8'));
+                if (isHistory && isHistory === true) {
+                    jsonRes.TxId = res.value.txId;
+                    jsonRes.Timestamp = res.value.timestamp;
+                    try {
+                        jsonRes.Value = JSON.parse(res.value.value.toString('utf8'));
+                    } catch (err) {
+                        console.log(err);
+                        jsonRes.Value = res.value.value.toString('utf8');
+                    }
+                } else {
+                    jsonRes.Key = res.value.key;
+                    try {
+                        jsonRes.Record = JSON.parse(res.value.value.toString('utf8'));
+                    } catch (err) {
+                        console.log(err);
+                        jsonRes.Record = res.value.value.toString('utf8');
+                    }
+                }
+                allResults.push(jsonRes);
+            }
+            res = await iterator.next();
+        }
+        iterator.close();
+        return allResults;
+    }
+};
+
+module.exports = NFTContract;
